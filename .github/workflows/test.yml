@@ -26,17 +26,3 @@ jobs:
 
       - name: Test successful
         run: echo "All website tests passed!"
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Test CI Failure
-        run: exit 1
-
-- name: Test CI Failure
-  run: exit 1
