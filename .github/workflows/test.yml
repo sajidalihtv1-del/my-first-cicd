@@ -37,3 +37,6 @@ jobs:
 
       - name: Test CI Failure
         run: exit 1
+
+- name: Test CI Failure
+  run: exit 1
